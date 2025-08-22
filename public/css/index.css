@@ -1,0 +1,191 @@
+*{ 
+    margin:0; 
+    padding:0; 
+    }
+
+html{ 
+margin:0; 
+padding:0;
+}
+
+body{ 
+margin:0; padding:0; 
+/*background:#1e2023;*/
+background:#000000;
+background-color: black
+}    
+
+.bagian_atas{
+    display: flex;
+    /* align-items: center */
+    /* align-items: bottom; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sitemap_dan_search{
+    display: flex;
+    height: 87px;
+    align-items: flex-end;
+}
+
+/* ========================BAGIAN SITE MAP ============ */
+
+#sitemap{
+    display: flex;
+    /* align-items: center */
+    margin-bottom: 20px
+}
+
+#sitemap div.moduletable ul.menu li a {
+    color:#959495;
+    text-decoration:none;
+    }
+
+  /*-----------------FLAG-------------*/
+
+  #sitemap div.moduletableflag {
+    position:relative;
+    /* top:40px;
+    left:85px; */
+    width:76px;
+    }    
+    
+      
+    #sitemap div.moduletableflag a img {
+    border:none;
+    }     
+    
+
+/* ===============================BAGIAN SEARCH================== */
+
+#search {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    /* width:300px; */
+    /* height:87px; */
+    /* float:left; */
+    /* display: flex;
+    align-items: center; */
+    }
+.searchsearch{
+    display: flex;
+    align-items: bottom;
+}
+
+
+
+/* ====================BAGIAN MENU TOMBOL ========================= */
+#wrapper {
+    width:944px;
+    margin:0 auto;
+    }
+    
+
+#menu{
+
+    background-image:url(../images/menubackground.png);
+    width:943px;
+    height:41px;
+    background-repeat:no-repeat;
+    float:left;
+    margin-bottom:18px;
+}
+
+#menu .moduletable_menu ul.menu {
+    list-style-type:none;
+    position:relative;
+    top:3px;
+    left:9px;
+}
+
+#menu .moduletable_menu ul.menu li {
+    float:left;
+    /*width:133px;*/
+    width:116px;
+    height:34px;
+    text-align:center;
+}
+
+#menu .moduletable_menu ul.menu li a {
+    width:116px;
+    height:34px;
+    display:block;
+    font-family:arial;
+    font-size:14px;
+    font-weight;normal;
+    color:white;
+    text-decoration:none;
+    padding-top:7px;
+}
+
+#menu .moduletable_menu ul.menu li a:hover {
+    width:116px;
+    height:34px;
+    display:block;
+    background-image:url(../images/menubutton.png);
+    font-weight:bold;
+    background-repeat:no-repeat;
+}
+
+/* ======================== SLIDER IMAGE =========================== */
+
+#theImages{
+    overflow: auto
+}
+#slider {
+    width:944px;
+    max-height:376px;
+    clear:both;
+    }
+    
+    #slider div#slidergallery div#galleryContainer {
+    border:none;
+    margin:0;
+    padding:0;
+    background-color:#151719;
+    }
+    
+    #slider div#slidergallery div#galleryContainer div#arrow_left {
+    background-color:#151719;
+    }
+    
+    
+    #slider div#slidergallery div#galleryContainer div#arrow_right {
+    background-color:#151719;
+    }
+    
+    #slider div#slidergallery div#previewPane {
+    border:none;
+    margin:0;
+    padding:0;
+    }
+    
+    #slider div#slidergallery div#previewPane img {
+    width:944px;
+    height:308px;
+    }
+    
+    
+    #slider div#slidergallery div#galleryContainer div#theImages a img {
+    /*width:200spx;*/
+    width:263px;
+    height:102px;
+    }
+
+    /* =========================BAGIAN BLOG KONTENT =================== */
+
+    .leading{
+        color: white;
+        margin-top: 20px;
+    }
+    .tulisan_blog h2{
+        color: #ffb50d;
+    }
+
+    .gambar_blog img{
+        float: left;
+        margin-left: 10px;
+        margin-right: 25px;
+        border: 0;
+    }
