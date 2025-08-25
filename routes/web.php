@@ -46,6 +46,10 @@ Route::get('/test', function() {
 });
 
 // =================== SERVICES ===================
+Route::get('/service0', function() {
+    return view('sections.services.service0');
+})->name('service0');
+
 Route::get('/service1', function() {
     return view('sections.services.service1');
 })->name('service1');

@@ -31,7 +31,7 @@
                     <div class="container-fluid justify-content-center flex-wrap gap-2">
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('home') ? 'active' : ''  }}" href="{{ route('home') }}">Main Menu</a>
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('about') ? 'active' : ''  }}" href="{{ route('about') }}">About Us</a>
-                        <a class="btn button-28 fw-bold shadow {{ request()->routeIs('service1') ? 'active' : ''  }}" href="{{ route('service1') }}">Services</a>
+                        <a class="btn button-28 fw-bold shadow active2 {{ request()->routeIs('service0') ? 'active' : ''  }}" href="{{ route('service0') }}">Services</a>
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('operations') ? 'active' : ''  }}" href="{{ route('operations') }}">Operations</a>
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('clients') ? 'active' : ''  }}" href="{{ route('clients') }}">Clients</a>
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('contacts') ? 'active' : ''  }}" href="{{ route('contacts') }}">Contact Us</a>

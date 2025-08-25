@@ -13,6 +13,7 @@
 .card {
   position: absolute;
   pointer-events: auto;
+  cursor: pointer;
   top: 0;
   left: 0;
   width: 100%;
@@ -27,6 +28,7 @@
 
 .card.active {
   pointer-events: none;
+  cursor: none;
   transform: scale(1) translate(0,0);
   z-index: 2;
 }
@@ -98,12 +100,53 @@
         <button data-index="1">World Map</button>
     </div>
 
+    <script>
+const cards = document.querySelectorAll(".card");
+const buttons = document.querySelectorAll(".controls button");
+const title = document.getElementById("map-title");
+const information = document.getElementById('map-information');
 
+// fungsi umum untuk ganti gambar
+function activateCard(index) {
+  // reset semua kartu & tombol
+  cards.forEach(c => c.classList.remove("active"));
+  buttons.forEach(b => b.classList.remove("active"));
+
+  // aktifkan kartu sesuai index
+  cards[index].classList.add("active");
+  buttons[index].classList.add("active");
+
+  // update judul & informasi
+  title.textContent = cards[index].getAttribute("data-title");
+  information.textContent = cards[index].getAttribute("data-information");
+}
+
+// event tombol
+buttons.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    activateCard(index);
+  });
+});
+
+// event gambar
+cards.forEach((card, index) => {
+  card.addEventListener("click", () => {
+    activateCard(index);
+  });
+});
+
+// Set tombol pertama aktif di awal
+buttons[0].classList.add("active");
+</script>
+
+
+{{-- 
 <script>
 const cards = document.querySelectorAll(".card");
 const buttons = document.querySelectorAll(".controls button");
 const title = document.getElementById("map-title");
 const information = document.getElementById('map-information')
+
 
 
 buttons.forEach((btn, index) => {
@@ -124,6 +167,6 @@ buttons.forEach((btn, index) => {
 
 // Set tombol pertama aktif di awal
 buttons[0].classList.add("active");
-</script>
+</script> --}}
 
 @endsection
