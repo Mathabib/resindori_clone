@@ -8,7 +8,12 @@
     .tulisan-konten{
         font-size: 16px !important;
     }
+    .page-title{
+        text-align: center;
+    }
 </style>
+<h3 class="page-title">About Us</h3>
+<hr>
     <div class="row">
         <div class="col-3 d-flex flex-column gap-5">
             <div class="col">

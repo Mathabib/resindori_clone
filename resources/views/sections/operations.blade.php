@@ -55,7 +55,8 @@
 }
 
 #map-title{
-    text-align: center
+    text-align: center;
+    color: #00aeef;
 }
 
 .information{
@@ -67,8 +68,9 @@
 </style>
 
     <div class="title">
-        <h2 id="map-title">Our Operations through Indonesia</h2>
+        <h3 id="map-title">Our Operations through Indonesia</h3>
     </div>
+    <hr>
     <div class="card-stack">
         <!-- kasih data-title untuk tiap gambar -->
         <img src="{{ asset('images/no_image.jpg') }}" 
@@ -90,7 +92,7 @@
         </p>
     </div>
 
-    <div class="controls">
+    <div class="controls mb-5">
         <button data-index="0">Indonesia Map</button>
         <button data-index="1">World Map</button>
     </div>

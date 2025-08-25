@@ -10,34 +10,20 @@
         <link rel="stylesheet" href="{{ asset('/modules/mod_slidergallery/css/image-slideshow.css') }}" type="text/css">
          @stack('css')
     </head>
-    <body data-bs-theme="dark">
+    <body >
+       {{-- <div class="container-sm" id=""> --}}
        <div class="wrapper" id="wrapper">
-           
-
-             <div class="d-flex justify-content-between align-items-end py-2">
-                <div id="logo">
+    
+            <div class="d-flex align-items-end py-2">
+                <div id="logo" class="me-2">
                     <a href="#">
-                        <img src="{{ asset('images/stories/resindo logo3.jpg') }}" alt="Logo" class="img-fluid" style="max-height:70px">
+                        <img src="{{ asset('assets/resergy_logo.png') }}" alt="Logo" class="img-fluid" style="max-height:70px">
                     </a>
                 </div>
-
-                <div class="d-flex align-items-end">
-                    {{-- Sitemap --}}
-                    <div class="me-3 text-end">
-                        <div class="mb-1">
-                            <a href="#"><img src="{{ asset('images/stories/australia2.jpg') }}" class="img-fluid me-1" style="max-height:20px"></a>
-                            <a href="#"><img src="{{ asset('images/stories/indonesia23.jpg') }}" class="img-fluid me-1" style="max-height:20px"></a>
-                        </div>
-                        <a href="#" class="text-secondary small">SITEMAP</a>
-                    </div>
-
-                    {{-- Search --}}
-                    <form action="" method="post" class="d-flex">
-                        <input type="text" class="form-control form-control-sm" placeholder="Search">
-                        <button class="btn btn-sm btn-outline-light ms-2">
-                            <img src="{{ asset('images/M_images/searchButton.gif') }}" alt="Search">
-                        </button>
-                    </form>
+                <div class="" style="width:35%; font-size: 10px">
+                    <p class="mb-0">
+                        Feasibility Studies, Engineering Design, Consulting, Project and Construction Management of Multidisciplinary Projects and Services for the Minerals & Metals, Mining, Oil & Gas, Power Generation and Infrastructure Sectors.
+                    </p>
                 </div>
             </div>
 
@@ -45,11 +31,11 @@
                     <div class="container-fluid justify-content-center flex-wrap gap-2">
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('home') ? 'active' : ''  }}" href="{{ route('home') }}">Main Menu</a>
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('about') ? 'active' : ''  }}" href="{{ route('about') }}">About Us</a>
-                        <a class="btn button-28 fw-bold shadow {{ request()->routeIs('services') ? 'active' : ''  }}" href="{{ route('services') }}">Services</a>
+                        <a class="btn button-28 fw-bold shadow {{ request()->routeIs('service1') ? 'active' : ''  }}" href="{{ route('service1') }}">Services</a>
                         <a class="btn button-28 fw-bold shadow {{ request()->routeIs('operations') ? 'active' : ''  }}" href="{{ route('operations') }}">Operations</a>
-                        <a class="btn button-28 fw-bold shadow" href="#">Clients</a>
-                        <a class="btn button-28 fw-bold shadow" href="#">Contact Us</a>
-                        <a class="btn button-28 fw-bold shadow" href="#">Resindo Portal</a>
+                        <a class="btn button-28 fw-bold shadow {{ request()->routeIs('clients') ? 'active' : ''  }}" href="{{ route('clients') }}">Clients</a>
+                        <a class="btn button-28 fw-bold shadow {{ request()->routeIs('contacts') ? 'active' : ''  }}" href="{{ route('contacts') }}">Contact Us</a>
+                        {{-- <a class="btn button-28 fw-bold shadow" href="#">Resindo Portal</a> --}}
                         <a class="btn button-28 fw-bold shadow" href="#">Career</a>
                     </div>
             </nav>
@@ -61,7 +47,7 @@
             {{-- @include('components.footer') --}}
        </div>
         <div class="footer d-flex align-items-center justify-content-center">
-            <p>copyright @ 2025 resergy. Allrigh Reserved</p>
+            <p>copyright @ 2025 resergy. Allright Reserved</p>
         </div>
        @stack('js')
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

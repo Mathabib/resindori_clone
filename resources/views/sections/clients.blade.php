@@ -8,7 +8,14 @@
     .tulisan-konten{
         font-size: 16px !important;
     }
+    .page-title{
+        text-align: center;
+    }
 </style>
+
+    <h3 class="page-title">About Us</h3>
+    <hr>
+
     <div class="row">
         <div class="col-3 d-flex flex-column gap-5">
             <div class="col">
@@ -20,9 +27,8 @@
         </div>
         <div class="col-9">
             <p class="tulisan-konten">
-                Resindo is a project and technology specialist Indonesian company, established in 2009 yet comprising long term personnel from Indonesia and the Region experienced in all aspects of successful project design and development for the Minerals, Mining & Power Generation sectors.
-                Resindo works closely with some of the region’s leading process design houses for minerals process plant and related infrastructure development for coal, nickel, gold and other minerals, coal preparation plants and power generation.
-                This also includes on a non-conflict of interest basis, the local support of specialist overseas manufacturers for projects; Gas, Coal  & Hydropower turbine generators and related specialised services, which are combined with our local integration & balance of plant capabilities.
+                Many of our recent and current Clients include some of the world’s leading banks, major Coal Clients, national & international Clients and Process Groups for Gold, Copper, Nickel and other minerals & metals. 
+                Details may be discussed on a case specific basis where appropriate and in consideration of the confidential nature of some works. 
             </p>
         </div>
     </div>

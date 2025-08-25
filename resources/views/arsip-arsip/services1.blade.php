@@ -7,10 +7,12 @@
   object-fit: cover;
 
 }
+.page-title{
+    text-align: center;
+}
 </style>
-    <div>
-        <h1>Our Services</h1>
-    </div>
+    <h3 class="page-title">Our Services</h3>
+<hr>
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
