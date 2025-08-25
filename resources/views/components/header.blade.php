@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-    <title>Document</title>
-</head>
-<body>
-    
-    <div class="wrapper" id="wrapper">
-        <div class="bagian_atas">
+
+<div class="bagian_atas">
             <div id="logo">
                 <div class="moduletable">
                     <p>
@@ -57,54 +45,50 @@
                 </div>
             </div>
         </div>
-            <div id="menu">
-                <div class="moduletable_menu">
-                {{-- ========================================BAGIAN MENU TOMBOL ====================                 --}}
-                    <ul class="menu">
-                        <li class="item">
-                            <a href="">
-                                <span>Main Menu</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>About Us</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>Services</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>Operations</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>Clients</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>Contact Us</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>Resindo Portal</span>
-                            </a>
-                        </li>
-                        <li class="item">
-                            <a href="">
-                                <span>Career</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <div id="menu">
+            <div class="moduletable_menu">
+            {{-- ========================================BAGIAN MENU TOMBOL ====================                 --}}
+                <ul class="menu">
+                    <li class="item">
+                        <a href="">
+                            <span>Main Menu</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>Services</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>Operations</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>Clients</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>Resindo Portal</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <span>Career</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-    
-    </div>
-</body>
-</html>
+        </div>

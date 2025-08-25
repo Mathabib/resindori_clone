@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/index_baru.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 </head>
 <body class="bg-dark text-light">
 
@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg my-3 bg-secondary border rounded shadow-sm">
+    <nav class="navbar navbar-expand-lg my-3 bg-light border rounded shadow-sm">
     <div class="container-fluid justify-content-center flex-wrap gap-2">
         <a class="btn button-28 fw-bold shadow" href="#">Main Menu</a>
         <a class="btn button-28 fw-bold shadow" href="#">About Us</a>

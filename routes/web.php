@@ -14,18 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('home');
 
 Route::get('/about', function() {
-    return view('about');
-});
+    return view('sections.about_us');
+})->name('about');
+
 Route::get('/services', function() {
-    return view('services');
-});
+    return view('sections.services');
+})->name('services');
+
 Route::get('/operations', function() {
-    return view('operations');
-});
+    return view('sections.operations');
+})->name('operations');
+
 Route::get('/clients', function() {
     return view('clients');
 });
@@ -38,6 +41,9 @@ Route::get('/portal', function() {
 Route::get('/career', function() {
     return view('career');
 });
-Route::get('/about', function() {
-    return view('about');
+Route::get('/test', function() {
+    return view('test');
 });
+
+
+

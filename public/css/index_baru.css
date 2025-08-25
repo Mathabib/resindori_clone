@@ -1,0 +1,245 @@
+*{ 
+    margin:0; 
+    padding:0; 
+    }
+
+html{ 
+margin:0; 
+padding:0;
+}
+
+body{ 
+margin:0; padding:0; 
+/*background:#1e2023;*/
+background:#000000;
+background-color: black;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}    
+
+.bagian_atas{
+    display: flex;
+    /* align-items: center */
+    /* align-items: bottom; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sitemap_dan_search{
+    display: flex;
+    height: 87px;
+    align-items: flex-end;
+}
+
+/* ========================BAGIAN SITE MAP ============ */
+
+#sitemap{
+    display: flex;
+    /* align-items: center */
+    margin-bottom: 20px
+}
+
+#sitemap div.moduletable ul.menu li a {
+    color:#959495;
+    text-decoration:none;
+    }
+
+  /*-----------------FLAG-------------*/
+
+  #sitemap div.moduletableflag {
+    position:relative;
+    /* top:40px;
+    left:85px; */
+    width:76px;
+    }    
+    
+      
+    #sitemap div.moduletableflag a img {
+    border:none;
+    }     
+    
+
+/* ===============================BAGIAN SEARCH================== */
+
+#search {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    /* width:300px; */
+    /* height:87px; */
+    /* float:left; */
+    /* display: flex;
+    align-items: center; */
+    }
+.searchsearch{
+    display: flex;
+    align-items: bottom;
+}
+
+
+
+/* ====================BAGIAN MENU TOMBOL ========================= */
+#wrapper {
+    width:944px;
+    margin:0 auto;
+    /* flex: 1; */
+    }
+    
+
+#menu{
+
+    background-image:url(../images/menubackground.png);
+    width:943px;
+    height:41px;
+    background-repeat:no-repeat;
+    float:left;
+    margin-bottom:18px;
+}
+
+#menu .moduletable_menu ul.menu {
+    list-style-type:none;
+    position:relative;
+    top:3px;
+    left:9px;
+}
+
+#menu .moduletable_menu ul.menu li {
+    float:left;
+    /*width:133px;*/
+    width:116px;
+    height:34px;
+    text-align:center;
+}
+
+#menu .moduletable_menu ul.menu li a {
+    width:116px;
+    height:34px;
+    display:block;
+    font-family:arial;
+    font-size:14px;
+    font-weight;normal;
+    color:white;
+    text-decoration:none;
+    padding-top:7px;
+}
+
+#menu .moduletable_menu ul.menu li a:hover {
+    width:116px;
+    height:34px;
+    display:block;
+    background-image:url(../images/menubutton.png);
+    font-weight:bold;
+    background-repeat:no-repeat;
+}
+
+
+
+.button-28 {
+  background: #343a40; /* abu-abu gelap seperti bootstrap .btn-dark */
+  border: 1px solid #1d2124;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #495057;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  outline: 0;
+  padding: 10px 12px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #000; /* bayangan teks lebih gelap */
+  background: linear-gradient(to bottom, #343a40 0%, #1d2124 100%);
+  transition: padding 50ms ease-in-out, border-top-width 50ms ease-in-out, box-shadow 150ms ease-in-out;
+}
+
+.button-28:hover {
+    color: black !important;
+    background: #ffca2c; /* warna hover default Bootstrap warning */
+    background: linear-gradient(to bottom, #ffca2c 0%, #e0a800 100%);
+    box-shadow: inset 0 1px 0 #ffe58f, 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.active{
+    color: black !important;
+    background: #ffca2c; /* warna hover default Bootstrap warning */
+    background: linear-gradient(to bottom, #ffca2c 0%, #e0a800 100%);
+    box-shadow: inset 0 1px 0 #ffe58f, 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.button-28:active {
+  border-top-width: 2px;
+  box-shadow: none;
+  padding-bottom: 8px;
+}
+
+
+/* ======================== SLIDER IMAGE =========================== */
+
+#theImages{
+    overflow: auto
+}
+#slider {
+    width:944px;
+    max-height:376px;
+    clear:both;
+    }
+    
+    #slider div#slidergallery div#galleryContainer {
+    border:none;
+    margin:0;
+    padding:0;
+    background-color:#151719;
+    }
+    
+    #slider div#slidergallery div#galleryContainer div#arrow_left {
+    background-color:#151719;
+    }
+    
+    
+    #slider div#slidergallery div#galleryContainer div#arrow_right {
+    background-color:#151719;
+    }
+    
+    #slider div#slidergallery div#previewPane {
+    border:none;
+    margin:0;
+    padding:0;
+    }
+    
+    #slider div#slidergallery div#previewPane img {
+    width:944px;
+    height:308px;
+    }
+    
+    
+    #slider div#slidergallery div#galleryContainer div#theImages a img {
+    /*width:200spx;*/
+    width:263px;
+    height:102px;
+    }
+
+    /* =========================BAGIAN BLOG KONTENT =================== */
+
+    .leading{
+        color: white;
+        margin-top: 20px;
+    }
+    .tulisan_blog h2{
+        color: #ffb50d;
+    }
+
+    .gambar_blog img{
+        float: left;
+        margin-left: 10px;
+        margin-right: 25px;
+        border: 0;
+    }
+
+    /* ============================= BAGIAN FOOTER ========================= */
+
+    .footer{
+       position: fixed;
+       bottom: 0px;
+        background: black;
+        width: 100%;
+        height: 50px;
+    }
