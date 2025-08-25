@@ -12,6 +12,7 @@
 
 .card {
   position: absolute;
+  pointer-events: auto;
   top: 0;
   left: 0;
   width: 100%;
@@ -25,7 +26,7 @@
 }
 
 .card.active {
-  
+  pointer-events: none;
   transform: scale(1) translate(0,0);
   z-index: 2;
 }

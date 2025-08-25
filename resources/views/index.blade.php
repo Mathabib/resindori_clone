@@ -37,10 +37,13 @@
         <img src="{{ asset('images/stories/bannerdepan21.jpg') }}" class="img-fluid" alt="Banner">
     </div> --}}
 
-    <div>
-
+    <div style="width: 100%; height: 80px; background-color: #00aeef">
+        <div>
+            <h3 style="text-align: center">CONSULTING, ENGGINEERING, & IMPLEMENTATION</h3>
+            <h5 style="text-align: center">FOR MINERALS, METALS & POWERS GENERATION THROUGHOUT THE REGION</h5>
+        </div>
     </div>
-    <hr style="border: 4px solid #0089cf">
+    <hr style="border: 4px solid #049dea">
 
     {{-- Blog Content --}}
     <div class="row leading">
