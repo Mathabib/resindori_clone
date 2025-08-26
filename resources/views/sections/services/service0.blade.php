@@ -85,7 +85,7 @@
     flex: 1;
 }
 </style>
-    <h3 class="page-title">Our Services</h3>
+    <h3 class="page-title" style="color: #00aeef;">Our Services</h3>
 <hr>
 
 

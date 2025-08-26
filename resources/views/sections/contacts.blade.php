@@ -14,7 +14,7 @@
         }
     </style>
 
- <h3 class="page-title">Contact Us</h3>
+ <h3 class="page-title" style="color: #00aeef;">Contact Us</h3>
  <hr>
 
 <div class="row">
