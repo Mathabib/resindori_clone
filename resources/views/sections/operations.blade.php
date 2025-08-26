@@ -53,7 +53,8 @@
 }
 
 .controls button.active {
-  background: #ffc107;
+  background: linear-gradient(to bottom, #4fb6e1 0%, #007bb7 100%);
+  box-shadow: inset 0 1px 0 #80d4f5, 0 0 10px rgba(0, 0, 0, 0.4)
   color: black;
 }
 
@@ -96,8 +97,8 @@
     </div>
 
     <div class="controls mb-5">
-        <button data-index="0">Indonesia Map</button>
-        <button data-index="1">World Map</button>
+        <button class="" data-index="0">Indonesia Map</button>
+        <button class="" data-index="1">World Map</button>
     </div>
 
     <script>

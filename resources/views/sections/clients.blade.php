@@ -11,6 +11,43 @@
     .page-title{
         text-align: center;
     }
+
+/* 
+    body {
+	align-items: center;
+	justify-content: center;
+    } */
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7)); }
+}
+
+.slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* biar penuh */
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+    flex-shrink: 0; /* jangan mengecil */
+}
+
+.slide{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
 </style>
 
     <h3 class="page-title">About Us</h3>
@@ -33,18 +70,35 @@
         </div>
     </div>
 
-    <div class="row mt-5">
-        <div class="col">
-            <img width="200" src="{{ asset('images/no_image.jpg') }}" alt="">
-        </div>
-        <div class="col">
-            <img width="200" src="{{ asset('images/no_image.jpg') }}" alt="">
-        </div>
-        <div class="col">
-            <img width="200" src="{{ asset('images/no_image.jpg') }}" alt="">
-        </div>
-        <div class="col">
-            <img width="200" src="{{ asset('images/no_image.jpg') }}" alt="">
-        </div>
-    </div>
+   <style>
+  
+  
+
+</style>
+
+<div class="slider mt-5">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/adaro.png') }}" height="" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/amman.png') }}" height="" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/buma.png') }}" height="" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/pertamina.png') }}" height="" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/petrosea.png') }}" height="" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/solway.png') }}" height="" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="{{ asset('assets/clients_logo/vale.png') }}" height="" width="200" alt="" />
+		</div>
+	</div>
+</div>
 @endsection

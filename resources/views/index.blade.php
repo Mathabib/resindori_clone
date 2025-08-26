@@ -48,7 +48,8 @@
     {{-- Blog Content --}}
     <div class="row leading">
         <div class="col-md-4">
-            <img src="{{ asset('images/stories/paower generation.jpg') }}" alt="" class="img-fluid rounded">
+            <img src="{{ asset('images/no_image.jpg') }}" alt="" class="img-fluid rounded" style="height: 250px">
+            {{-- <img src="{{ asset('images/stories/paower generation.jpg') }}" alt="" class="img-fluid rounded"> --}}
         </div>
         <div class="col-md-8">
             <h2 class="" style="color: #00aeef">Welcome to Resergy</h2>

@@ -122,20 +122,49 @@
             </div> --}}
             <div class="">
                 <p class="tulisan-konten">
-                    Resindo is formally qualified by the Ministry of Energy and Mineral Resources, Republic of Indonesia, to undertake Feasibility Studies works in our field that are submitted to the Government as part of a Project’s Development and permit application requirement. 
-                    This includes the approval and certification of Resindo Indonesian technical personnel required as part of this qualification. 
-                    Resindo undertakes the full range of feasibility studies for  project development including Technical Due Diligence works to support Acquisitions.
-                    Our area is Concept Development through to full Design, Capital & Operating Cost development with Economic Models for greenfields or expansion projects including:	
+                   Resindo provides a range of services as listed, both direct to our Clients, Third Party Consultants and Contractors. 
                 </p>
+                <p>
+                    Resindo works in dual languages for effective communication; Indonesian and English. 
+                    This ensures we provide the highest level of service to our National & International 
+                    Clients and maximises local supplier and contractor opportunities for participation in 
+                    projects throughout the country.
+                </p>
+
                 <ul>
-                    <li>Process Plant Detail & Balance of Plant</li>
-                    <li>Plant Electrical & Control Systems, Communication Systems</li>
-                    <li>Power Plants</li>
-                    <li>RoM systems, Crushing, Stockyards, Conveyors</li>
-                    <li>Haul Roads & Earthworks Optimisation/Modeling</li>
-                    <li>Camps, Workshops & Support Facilities</li>
-                    <li>River & Coastal Ports</li>
-                    <li>Loadout to Barges or Vessels</li>
+                    <li>
+                        Project Development, Project & Construction Management, EPCM
+                    </li>
+                    <li>
+                        Feasibility Studies, Engineering, Design  Drafting, Shop Drawings
+                    </li>
+                    <li>
+                        Minerals , Metals & Coal Plant Infrastructure, Process Plant Detail
+                    </li>
+                    <li>
+                        Bulk Materials Handling, Crushing , Stacking & Load Out Systems
+                    </li>
+                    <li>
+                        Coastal & River Port Design & Development; Bulk & Container Handling
+                    </li>
+                    <li>
+                        Hydro, Coal , MFO & Gas Power Generation 
+                    </li>
+                    <li>
+                        Oil & Gas Infrastructure; Structures, Fuel Farms, Piping Systems
+                    </li>
+                    <li>
+                        Greenfield Developments & Brownfield Expansions
+                    </li>
+                    <li>
+                        Steel Fabrication Management
+                    </li>
+                    <li>
+                        Operation
+                    </li>
+                    <li>
+                        Plant Efficiency Improvement
+                    </li>
                 </ul>
             </div>
         </div>

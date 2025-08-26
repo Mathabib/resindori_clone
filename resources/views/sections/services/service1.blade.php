@@ -85,7 +85,7 @@
     flex: 1;
 }
 </style>
-    <h3 class="page-title">Our Services</h3>
+    <h3 class="page-title">Project Development & Construction Services</h3>
 <hr>
 
 
@@ -123,9 +123,15 @@
             <div class="">
                 <p class="tulisan-konten">
                     Resindo is formally qualified by the Ministry of Energy and Mineral Resources, Republic of Indonesia, to undertake Feasibility Studies works in our field that are submitted to the Government as part of a Project’s Development and permit application requirement. 
+                </p>
+                <p>
                     This includes the approval and certification of Resindo Indonesian technical personnel required as part of this qualification. 
+                </p>
+                <p>
                     Resindo undertakes the full range of feasibility studies for  project development including Technical Due Diligence works to support Acquisitions.
-                    Our area is Concept Development through to full Design, Capital & Operating Cost development with Economic Models for greenfields or expansion projects including:	
+                </p>
+                <p>
+                    Our area is Concept Development through to full Design, Capital & Operating Cost development with Economic Models for greenfields or expansion projects including:
                 </p>
                 <ul>
                     <li>Process Plant Detail & Balance of Plant</li>
