@@ -50,7 +50,7 @@
 
 </style>
 
-    <h3 class="page-title">About Us</h3>
+    <h3 class="page-title">Our Clients</h3>
     <hr>
 
     <div class="row">
